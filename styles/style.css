@@ -11,18 +11,6 @@
   background-position: center;
 }
 
-.centered-block {
-  /* применяется для выравнивания блоков по центру */
-  margin: auto;
-}
-
-.list {
-  /* сброс стилей списка */
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 /* Header */
 
 .header {
@@ -61,6 +49,7 @@
 
 .header__subtitle {
   width: 388px;
+  margin: 0;
 
   line-height: 25px;
   font-size: 18px;
@@ -155,7 +144,7 @@
 }
 
 .section-title {
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
   width: 60%;
 
   line-height: 69px;
@@ -165,6 +154,7 @@
 }
 
 .section-subtitle {
+  margin: 0 auto;
   width: 60%;
 
   line-height: 34px;
@@ -174,6 +164,9 @@
 }
 
 .table {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -216,17 +209,17 @@
 }
 
 .feinman__title {
+  margin: 0 auto 70px;
   width: 648px;
 
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   text-align: center;
-
-  margin-bottom: 70px;
 }
 
 .feinman__subtitle {
+  margin: 0 auto;
   width: 648px;
 
   line-height: 51px;
@@ -282,6 +275,9 @@
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+
   width: 877px;
   height: 877px;
   position: absolute;
@@ -326,20 +322,23 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  padding: 0;
+  margin: 0 0 16px;
+  list-style: none;
+
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
 }
 
-.footer__link {
+.footer__column-link {
   color: white;
   text-decoration: none;
 }
