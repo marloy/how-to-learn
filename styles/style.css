@@ -9,12 +9,14 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
 .centered-block {
   margin: auto;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Header */
@@ -45,12 +47,6 @@ h1, h2, h3, h4, h5, h6, p {
   top: 30px;
   left: 64px;
   z-index: 1;
-}
-
-.logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg);
-  width: 183px;
-  height: 35px;
 }
 
 .header__title {
@@ -277,4 +273,72 @@ h1, h2, h3, h4, h5, h6, p {
   top: 0;
   right: -210px;
   z-index: -1;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+}
+
+.footer__columns {
+  align-items: stretch;
+  margin: 60px auto 40px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+
+}
+
+.footer__column-links {
+  margin-bottom: 16px;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
