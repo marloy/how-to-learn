@@ -185,7 +185,7 @@
   font-weight: bold;
 }
 
-.heading__text {
+.table__text {
   margin: 20px 0 0;
   /* заменили стандартные отступы между элементами */
   line-height: 1.2;
@@ -316,6 +316,7 @@
 }
 
 .footer__author {
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
