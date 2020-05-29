@@ -1,0 +1,11 @@
+.header__square-pic {
+  margin-top: 64px;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* прижали квадрат в правый верхний угол и отсутпили сверху 64px */
+}

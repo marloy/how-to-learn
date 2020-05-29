@@ -1,0 +1,6 @@
+.description {
+  display: flex;
+  justify-content: center;
+  /* ниже установили внутренние отступы для секции */
+  padding-top: 100px;
+}
