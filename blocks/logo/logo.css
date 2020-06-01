@@ -2,6 +2,7 @@
 @import url(./_place/logo_place_footer.css);
 
 .logo {
+  width: 183px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
